@@ -89,25 +89,7 @@ var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElement
 {a_to_vh=true;}
 j++;}
 if(a_to_vh==false)
-{var encryptedUrl=Base64.encode(a_to_vi);
-var x=Math.floor((Math.random()*15)+ 1);
-var xxx=null;
-if(x=="1"){xxx="pTqo"}
-if(x=="2"){xxx="h7RM"}
-if(x=="3"){xxx="Ma1G"}
-if(x=="4"){xxx="VdTp"}
-if(x=="5"){xxx="BxMm"}
-if(x=="6"){xxx="6xvZ"}
-if(x=="7"){xxx="8wBg"}
-if(x=="8"){xxx="NrCn"}
-if(x=="9"){xxx="nzxh"}
-if(x=="10"){xxx="qKWT"}
-if(x=="11"){xxx="x1fX"}
-if(x=="12"){xxx="rmjN"}
-if(x=="13"){xxx="SYdU"}
-if(x=="14"){xxx="3fdi"}
-if(x=="15"){xxx="ZciL"}
-a_to_ve[i].href="https://marwanto606.page.link/"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+{var encryptedUrl=Base64.encode(a_to_vi);a_to_ve[i].href="https://marwanto606.page.link/pTqo?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
